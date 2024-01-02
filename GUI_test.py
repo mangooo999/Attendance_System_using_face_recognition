@@ -38,7 +38,7 @@ class FirebaseAuthenticationApp:
         self.course = tk.StringVar()
         self.week = tk.StringVar()
         self.user_id = tk.StringVar()
-        self.FRcreate_widgets()
+        self.logincreate_widgets()
 
     def logincreate_widgets(self):
         #greyframe
