@@ -211,7 +211,7 @@ class FirebaseAuthenticationApp:
             self.result_text.delete(1.0, tk.END)
             for person in result:
                 self.result_text.insert(tk.END, f"{person}\n")
-            # db.reference(f"/{self.user_id}/{self.course}").update({ self.week : result})
+            db.reference(f"/{self.user_id}/{self.course}").update({ self.week : result})
         else:
             # If no file is selected, show an error message
             self.result_text.delete(1.0, tk.END)
