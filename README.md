@@ -1,5 +1,4 @@
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image1.jpg){width="6.268055555555556in"
-height="1.8291666666666666in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image1.jpg)
 
 **CSE429**
 
@@ -7,18 +6,14 @@ height="1.8291666666666666in"}
 
 **Final Project Documentation**
 
-**Group Members:\
-**Ahmed Abdelkader Ahmed -- 120200028
-
+Group Members:\
+Ahmed Abdelkader Ahmed -- 120200028
+Mahmoud Akrm Mohamed -- 120200045
+Mohamed Ayman Mohamed -- 120200081
+Peter Fayez Shafiq -- 120200073
+Ziad Hesham Al-Safy -- 120200078
 Ahmad Mongy Saad -- 120200033
 
-Mahmoud Akrm Mohamed -- 120200045
-
-Mohamed Ayman Mohamed -- 120200081
-
-Peter Fayez Shafiq -- 120200073
-
-Ziad Hesham Al-Safy -- 120200078
 
 **To:**
 
@@ -26,142 +21,6 @@ DR. Ahmed Saleh
 
 Eng. Mahmoud Sharshira
 
-# Table of Contents {#table-of-contents .TOC-Heading}
-
-[• Overview: [3](#overview)](#overview)
-
-[• Key Features: [3](#key-features)](#key-features)
-
-[1. Login and Signup: [3](#login-and-signup)](#login-and-signup)
-
-[2. Course and Week Selection:
-[3](#course-and-week-selection)](#course-and-week-selection)
-
-[3. Face Recognition: [4](#face-recognition)](#face-recognition)
-
-[4. Attendance Recording:
-[4](#attendance-recording)](#attendance-recording)
-
-[5. Dynamic GUI: [5](#dynamic-gui)](#dynamic-gui)
-
-[6. Firebase Integration:
-[5](#firebase-integration)](#firebase-integration)
-
-[7. WEB Deploying using NGrok:
-[5](#web-deploying-using-ngrok)](#web-deploying-using-ngrok)
-
-[[6](#section)](#section)
-
-[• Technologies Used: [6](#technologies-used)](#technologies-used)
-
-[1. Programming Language:
-[6](#programming-language)](#programming-language)
-
-[2. Libraries and Frameworks:
-[6](#libraries-and-frameworks)](#libraries-and-frameworks)
-
-[3. Database: [6](#database)](#database)
-
-[4. Web Framework: [6](#web-framework)](#web-framework)
-
-[5. Image Processing: [7](#image-processing)](#image-processing)
-
-[6. Android Development Dependencies:
-[7](#android-development-dependencies)](#android-development-dependencies)
-
-[• How to Use: [7](#how-to-use)](#how-to-use)
-
-[1. Login or Signup: [7](#login-or-signup)](#login-or-signup)
-
-[2. Course and Week Selection:
-[7](#course-and-week-selection-1)](#course-and-week-selection-1)
-
-[3. Face Recognition: [7](#face-recognition-1)](#face-recognition-1)
-
-[4. Attendance Recording:
-[7](#attendance-recording-1)](#attendance-recording-1)
-
-[• Benefits: [8](#benefits)](#benefits)
-
-[1. Efficiency: [8](#efficiency)](#efficiency)
-
-[2. Accuracy: [8](#accuracy)](#accuracy)
-
-[3. Accessibility: [8](#accessibility)](#accessibility)
-
-[• Project structure [8](#project-structure)](#project-structure)
-
-[1. ADD_Faces.py [8](#add_faces.py)](#add_faces.py)
-
-[1. read_random_frames function:
-[8](#read_random_frames-function)](#read_random_frames-function)
-
-[2. create_images_AND_names function:
-[8](#create_images_and_names-function)](#create_images_and_names-function)
-
-[3. findEncodings function:
-[9](#findencodings-function)](#findencodings-function)
-
-[4. creatpik function: [9](#creatpik-function)](#creatpik-function)
-
-[5. update_pickle function:
-[9](#update_pickle-function)](#update_pickle-function)
-
-[6. main function: [9](#main-function)](#main-function)
-
-[2. FastAPI Server Code [9](#fastapi-server-code)](#fastapi-server-code)
-
-[1. Importing Libraries and Modules
-[9](#importing-libraries-and-modules)](#importing-libraries-and-modules)
-
-[2. FastAPI App Setup: [9](#fastapi-app-setup)](#fastapi-app-setup)
-
-[3. Loading Encoded Data:
-[9](#loading-encoded-data)](#loading-encoded-data)
-
-[4. Endpoint for Image Upload:
-[9](#endpoint-for-image-upload)](#endpoint-for-image-upload)
-
-[5. Image Processing and Face Recognition:
-[10](#image-processing-and-face-recognition)](#image-processing-and-face-recognition)
-
-[6. Face Matching and Result Compilation:
-[10](#face-matching-and-result-compilation)](#face-matching-and-result-compilation)
-
-[7. Returning Result: [10](#returning-result)](#returning-result)
-
-[8. Running the FastAPI Server:
-[10](#running-the-fastapi-server)](#running-the-fastapi-server)
-
-[9. Additional Notes [10](#additional-notes)](#additional-notes)
-
-[3. Firebase Authentication and Face Recognition GUI
-[10](#firebase-authentication-and-face-recognition-gui)](#firebase-authentication-and-face-recognition-gui)
-
-[1. Importing Libraries and Modules
-[10](#importing-libraries-and-modules-1)](#importing-libraries-and-modules-1)
-
-[2. Class: FirebaseAuthenticationApp
-[10](#class-firebaseauthenticationapp)](#class-firebaseauthenticationapp)
-
-[3. Additional Notes: [11](#additional-notes-1)](#additional-notes-1)
-
-[4. Mobile APP [11](#mobile-app)](#mobile-app)
-
-[1. Introduction [11](#introduction)](#introduction)
-
-[2. Dependencies [11](#dependencies)](#dependencies)
-
-[3. Firebase Integration
-[11](#firebase-integration-1)](#firebase-integration-1)
-
-[4. UI Components [11](#ui-components)](#ui-components)
-
-[5. Camera Integration [12](#camera-integration)](#camera-integration)
-
-[6. HTTP POST Request [12](#http-post-request)](#http-post-request)
-
-[7. Image Handling [12](#image-handling)](#image-handling)
 
 -   # Overview:
 
@@ -181,22 +40,19 @@ for recognition.
     -   Users can securely log in or sign up using their email and
         password through Firebase authentication.
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image2.png){width="2.433333333333333in"
-height="1.8965277777777778in"}![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image3.png){width="1.3333333333333333in"
-height="1.9673611111111111in"}![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image4.png){width="1.4166666666666667in"
-height="2.0902777777777777in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image2.png)
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image3.png)
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image4.png)
 
 2.  ### **Course and Week Selection:**
 
     -   After authentication, users can select the course and week for
         which they want to mark attendance.
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image5.png){width="1.65in"
-height="2.4347222222222222in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image5.png)
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image6.png){width="1.4833333333333334in"
-height="2.188888888888889in"}![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image7.png){width="2.783333333333333in"
-height="2.191666666666667in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image6.png)
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image7.png)
 
 3.  ### **Face Recognition:**
 
