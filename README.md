@@ -60,11 +60,9 @@ for recognition.
         capabilities. Users can upload an image, and the system will
         recognize faces, linking them to registered individuals.
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image8.png){width="3.3333333333333335in"
-height="2.607638888888889in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image8.png)
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image9.png){width="1.6659722222222222in"
-height="2.4590277777777776in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image9.png)
 
 4.  ### **Attendance Recording:**
 
@@ -72,8 +70,7 @@ height="2.4590277777777776in"}
         selected course and week. The attendance data is stored securely
         on Firebase Realtime Database.
 
-![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image10.png){width="6.268055555555556in"
-height="2.9034722222222222in"}
+![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image10.png)
 
 5.  ### **Dynamic GUI:**
 
@@ -89,7 +86,7 @@ height="2.9034722222222222in"}
 
 7.  ### **WEB Deploying using NGrok:**
 
-### ![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image11.png){width="2.533333333333333in" height="1.4937281277340333in"}![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image12.png){width="4.847405949256343in" height="2.466666666666667in"}
+### ![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image11.png)![](vertopal_0d4e9bcc9a444db387b71e1f5c3b1ccf/media/image12.png)
 
 -   # Technologies Used:
 
